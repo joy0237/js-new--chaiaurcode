@@ -23,6 +23,7 @@ let State
 
 /*
 //object
+null
 */
  console.log(typeof Age);
  console.log(typeof null)
