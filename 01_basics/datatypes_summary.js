@@ -12,11 +12,11 @@ Reference type or non-primitive datatype:- reference is directly allocated in th
 #arrays
 #objects
 #functions
-*/
+
 
 //JS is a dynamic language
 
-/*
+
 const score = 100;
 const scoreValue = 100.3;
 const isLoggedIn = false;
@@ -27,7 +27,8 @@ const anotherId = Symbol('123');
 console.log(id == anotherId);
 const bigNumber = 7665897486352490n;
 console.log(bigNumber);
-*/
+
+
 
 // non- primitve
 const gods = ["Shiva", "Parvati", "Krishna"];
@@ -40,3 +41,27 @@ const gods = ["Shiva", "Parvati", "Krishna"];
  const myFunction  = function(){
     console.log("hi there!");    
  }
+
+
+ //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ //memeory are of two types stack and heap
+ //for primitive type stack memory is used 
+ //for non- primitive heap memory is used
+
+ let mySchoolName = "Auxilium Convent School";
+ let anothername = mySchoolName;
+ anothername = "St. Xavier's Institutuion";
+ console.log(anothername);
+ console.log(mySchoolName);
+ */
+
+ let userOne ={
+   email: "user1@gmail.com",
+   upi: "user1@ptm"
+ }
+ 
+ let userTwo = userOne;
+ userTwo.email = "joy@gmail.com";
+ console.log(userOne.email);
+ console.log(userTwo.email);
