@@ -8,7 +8,8 @@ const repoCount = 5;
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new  String ('joyshree-rocks'); //invoking object
+const anotherString1 = gameName.slice(-10,4);
+console.log(anotherString1); //invoking object
 
 // string is a key value pair
 /*
