@@ -1,6 +1,7 @@
 "use strict"; // treat all js code as newer version of js
 
 // alert(3+3); not used in node directly but is used after being binded with HTML or in developer consol 
+// it can be used but it hidden in browser
 
 //code readablity should be high
 console.log(3+3);  

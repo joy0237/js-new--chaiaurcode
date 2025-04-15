@@ -7,12 +7,11 @@ const repoCount = 5;
 // string interpolation makes placeholders can directly inject the values
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+const gameName = new String ('jooyiee')
 
 const anotherString1 = gameName.slice(-10,4);
 console.log(anotherString1); //invoking object
 
-// string is a key value pair
-/*
 console.log(gameName[7]);
 console.log(gameName.__proto__);
 console.log(gameName.length);
@@ -25,9 +24,8 @@ console.log(newString);
 const anotherString = gameName.slice(0,4);
 console.log(anotherString);
 
-const anotherString1 = gameName.slice(-10,4);
+const anotherString2 = gameName.slice(-10,4);
 console.log(anotherString1);
-*/
 
 const newStringOne = "               joyshree                        "
 console.log(newStringOne);
