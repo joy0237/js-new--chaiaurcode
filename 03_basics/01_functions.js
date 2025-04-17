@@ -37,4 +37,33 @@ function loginUserMessage(userName = "sam"){
 }
 
 // console.log(loginUserMessage("joyshree"));
-console.log(loginUserMessage("joy"));
+// console.log(loginUserMessage("joy"));
+
+function calculateCartPrice (value1, value2, ...num1){ //... is rest operator and sread opertor. depending on what it performs the opertors are called
+    return num1;
+}
+
+// console.log(calculateCartPrice(200, 400, 500, 2000));
+
+const user = {
+    userName: "joyshree",
+    price: 199
+}
+
+function handleObject(anyObject){
+    console.log(`user name is ${anyObject.userName} and price is ${anyObject.price}`);    
+}
+
+// handleObject(user); or
+handleObject({ // oject can be passed directly
+    userName: "joyshree",
+    price: 677
+});
+
+const newArray = [200, 400, 100, 600]
+
+function returnSecondValue(getArray){
+    return getArray[1];
+}
+
+console.log( returnSecondValue(newArray));
